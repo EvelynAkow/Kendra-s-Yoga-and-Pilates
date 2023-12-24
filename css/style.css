@@ -39,6 +39,9 @@ body {
     list-style-type: none;
 }
 
+.homePage{
+  background-image: url(/images/background.jpg);
+}
 
 footer {
 
