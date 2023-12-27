@@ -41,6 +41,7 @@ body {
 
 .homePage{
   background-image: url(/images/background.jpg);
+  height: 20%;
 }
 
 footer {
