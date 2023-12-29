@@ -22,22 +22,27 @@
 /*******************************************/
 
 body {
-
-
-
+  font-family: 'Poppins', sans-serif;
 }
 
-.navBar{
-  background-color: white;
-  background-size: 100%;
+li a {
+  color: rgb(59, 58, 58);
+  text-decoration: none;
 }
 
 .section2{
-  background-color: rgb(189, 138, 44);
+  background-color: rgba(246, 143, 11, 1);
+  color: white;
+  padding: 10%;
+  text-align: center;
 }
 
 .section2 h3{
   margin: 0;
+}
+
+.section2 h3,.section2 h4{
+
 }
 
 
