@@ -23,6 +23,13 @@
 
 body {
 
+
+
+}
+
+.navBar{
+  background-color: white;
+  background-size: 100%;
 }
 
 
@@ -40,8 +47,8 @@ body {
 }
 
 .homePage{
-  background-image: url(/images/background.jpg);
-  height: 20%;
+   background-image: url(/images/background.jpg);
+padding: 10%;
 }
 
 footer {
