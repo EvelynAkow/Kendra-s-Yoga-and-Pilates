@@ -60,21 +60,21 @@ li a {
 /******************************************
 /* Home Page
 /*******************************************/
-.section1{
+.home.section1{
   background-image: url(/images/background.jpg);
 padding: 10%;
 }
 
-.section2{
+.home.section2{
   padding: 10%;
   text-align: center;
 }
 
-.section2 h3{
+.home.section2 h3{
   margin: 0;
 }
 
-.section3{
+.home.section3{
 width: 40%;
 text-align: center;
 margin: auto;
@@ -84,13 +84,13 @@ text-size-adjust: auto;
 padding: 10% 0;
 }
 
-.section4{
+.home.section4{
 text-align: center;
 margin: auto;
 padding: 5%;
 }
 
-.section4 a{
+.home.section4 a{
   text-decoration: none;
   color: white;
 }
@@ -99,7 +99,24 @@ padding: 5%;
   color: white;
   font-size: 45px;
 }
-
+/******************************************
+/* About Me page
+/*******************************************/
+.aboutMe.section3{
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  }
+  
+  .aboutMe.section3 a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .material-symbols-outlined{
+    color: white;
+    font-size: 45px;
+  }
 
 /******************************************
 /* LAYOUT
