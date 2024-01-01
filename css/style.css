@@ -31,13 +31,30 @@ li a {
   text-decoration: none;
 }
 
+.light{
+  color: rgb(59, 58, 58);
+}
+
+.medium{
+  background-color: rgba(246, 143, 11, 1);
+  color: white;
+
+}
+
+.dark{
+  background-color:rgba(183, 37,0, 1);
+  color: white;
+}
+
 /******************************************
 /* Home Page
 /*******************************************/
+.section1{
+  background-image: url(/images/background.jpg);
+padding: 10%;
+}
 
 .section2{
-  background-color: rgba(246, 143, 11, 1);
-  color: white;
   padding: 10%;
   text-align: center;
 }
@@ -57,7 +74,6 @@ padding: 10% 0;
 }
 
 .section4{
-background-color:rgba(183, 37,0, 1);
 text-align: center;
 margin: auto;
 padding: 5%;
@@ -87,10 +103,6 @@ padding: 5%;
     list-style-type: none;
 }
 
-.section1{
-   background-image: url(/images/background.jpg);
-padding: 10%;
-}
 
 footer {
 
