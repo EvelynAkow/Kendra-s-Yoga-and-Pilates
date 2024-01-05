@@ -84,13 +84,61 @@ text-size-adjust: auto;
 padding: 10% 0;
 }
 
-.home.section4{
-text-align: center;
-margin: auto;
-padding: 5%;
+/******************************************
+/* About Me page
+/*******************************************/
+
+.aboutMe.section1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1em;
+  background-color: whitesmoke;
+  padding-top: 1em;
 }
 
-.home.section4 a{
+.aboutMe.section1 section{
+width: 40%;
+padding: 1em;
+}
+
+.aboutMe.section1 img{
+  width: 100%;
+}
+
+.aboutMe.section2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.aboutMe.section2 section{
+  height: 400px;
+  padding: 5em;
+  font-size: 0.5em;
+  text-align: center;
+  }
+
+  .aboutMe.section2 img{
+    height: 100%;
+  }
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* FOOTER
+/*******************************************/
+.footer{
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  }
+
+.footer a{
   text-decoration: none;
   color: white;
 }
@@ -99,46 +147,8 @@ padding: 5%;
   color: white;
   font-size: 45px;
 }
-/******************************************
-/* About Me page
-/*******************************************/
-.aboutMe.section1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.aboutMe.section1 section{
-width: 40%;
-padding: 1em;
-}
-.aboutMe.section1 img{
-  width: 100%;
-}
-.aboutMe.section3{
-  text-align: center;
-  margin: auto;
-  padding: 5%;
-  }
-  
-  .aboutMe.section3 a{
-    text-decoration: none;
-    color: white;
-  }
-  
-  .material-symbols-outlined{
-    color: white;
-    font-size: 45px;
-  }
-
-/******************************************
-/* LAYOUT
-/*******************************************/
 
 
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
