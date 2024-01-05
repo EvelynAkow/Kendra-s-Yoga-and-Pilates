@@ -4,11 +4,7 @@ Kendra's Yoga and Pilates is a private Yoga instructor's portfolio and service p
 
 Link to project:
 
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="GIF OF WEBSITE" src="/relative">
-</picture>
+[![solarized dualmode]()](#features)
 
 How It's Made:
 Tech used: HTML, CSS
