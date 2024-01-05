@@ -102,6 +102,19 @@ padding: 5%;
 /******************************************
 /* About Me page
 /*******************************************/
+.aboutMe.section1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutMe.section1 section{
+width: 40%;
+padding: 1em;
+}
+.aboutMe.section1 img{
+  width: 100%;
+}
 .aboutMe.section3{
   text-align: center;
   margin: auto;
