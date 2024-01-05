@@ -1,4 +1,4 @@
-# 
+# Kendra's Yoga and Pilates
 
 Kendra's Yoga and Pilates is a private Yoga instructor's portfolio and service page. A multipage functional website that includes a contact form.
 
