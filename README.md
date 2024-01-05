@@ -4,7 +4,7 @@ Kendra's Yoga and Pilates is a private Yoga instructor's portfolio and service p
 
 Link to project:
 
-[![solarized dualmode]()](#features)
+[![solarized dualmode](https://github.com/EvelynAkow/Kendra-s-Yoga-and-Pilates/blob/main/images/Animation.gif)](#features)
 
 How It's Made:
 Tech used: HTML, CSS
