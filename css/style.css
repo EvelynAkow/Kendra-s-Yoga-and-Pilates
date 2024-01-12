@@ -127,6 +127,27 @@ padding: 1em;
 /* Classes
 /*******************************************/
 
+.classes.section1{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.classImg img{
+  width: 400px;;
+  height: 400px;;
+  object-fit: scale-down;
+  object-fit: cover;
+}
+
+.class{
+  display: flex;
+  align-items: center;
+}
+
+.class.imgRight{
+  flex-direction: row-reverse;
+}
 
 /******************************************
 /* LAYOUT
