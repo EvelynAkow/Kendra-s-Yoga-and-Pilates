@@ -140,9 +140,16 @@ padding: 1em;
   object-fit: cover;
 }
 
+.classDescription{
+  max-width: 400px;
+  padding: 10px;
+}
+
 .class{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .class.imgRight{
