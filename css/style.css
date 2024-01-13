@@ -48,7 +48,8 @@ li a {
   text-decoration: none;
 }
 .navBar{
-  margin: 0 20%;
+  margin: 0 auto;
+  width: 800px;
 }
 .list {
     display: flex;
@@ -182,5 +183,16 @@ padding: 1em;
 
 
 /******************************************
-/* ADDITIONAL STYLES
+/* Mobile verison
 /*******************************************/
+@media screen and (max-width: 850px){
+
+  .defaultNav{
+    display: none;
+  }
+
+  .navBar{
+    width:100%;
+  }
+
+}
