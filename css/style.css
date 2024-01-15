@@ -158,9 +158,23 @@ padding: 1em;
 }
 
 /******************************************
-/* LAYOUT
+/* Gallery
 /*******************************************/
 
+.gallImg img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.gallery{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
 /******************************************
 /* FOOTER
 /*******************************************/
