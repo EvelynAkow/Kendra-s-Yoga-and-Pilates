@@ -37,7 +37,7 @@ body {
 }
 
 .dark{
-  background-color:rgba(183, 37,0, 1);
+  background-color:rgba(176, 32, 0, 1);
   color: white;
 }
 /******************************************
@@ -280,6 +280,10 @@ form .buttonArea{
 /******************************************
 /* FOOTER
 /*******************************************/
+footer{
+  display: flex;
+  background-color:rgba(176, 32, 0, 1);
+}
 .footer{
   text-align: center;
   margin: auto;
@@ -296,11 +300,24 @@ form .buttonArea{
   font-size: 45px;
 }
 
+video{
+  width: 500px;
+  height: 330px;
+  object-fit: cover;
+}
+
 
 
 /******************************************
 /* Mobile verison
 /*******************************************/
+@media screen and (max-width: 1300px){
+
+  video{
+    display: none;
+  }
+
+}
 @media screen and (max-width: 850px){
 
   .defaultNav{
