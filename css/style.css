@@ -81,7 +81,7 @@ li a {
   width: 100%;
   top: 150px;
   opacity: 0;
-  pointer-events: auto;
+  pointer-events: none;
   transform: translateY(-10px);
   transition: opacity 150ms ease-in-out,transform 150ms ease-in-out;
 }
@@ -102,6 +102,7 @@ li a {
 
 .navList li{
   padding: 30px;
+  pointer-events: auto;
 }
 
 /******************************************
