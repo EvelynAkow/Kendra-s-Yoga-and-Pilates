@@ -454,8 +454,14 @@ video{
 .gallImg img{
   width: 280px;
   height: 280px;
-  object-fit: cover;
   padding: 10px;
 }
 
+/******************************************
+/* Classes
+/*******************************************/
+.classImg img{
+  width: 280px;
+  height: 280px;
+}
 }
